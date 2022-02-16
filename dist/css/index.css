@@ -1,0 +1,181 @@
+* {
+  box-sizing: border-box; }
+
+body, html {
+  padding: 0;
+  margin: 0;
+  font-family: "DroidArabicKufiRegular"; }
+
+a {
+  text-decoration: none; }
+
+button {
+  height: 40px; }
+
+section .container {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 80px;
+  margin-bottom: auto;
+  padding-bottom: 20px;
+  width: 450px;
+  border: solid 0.5px #ececec;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.16); }
+  section .container h1 {
+    font-size: 15px;
+    margin-bottom: 10px; }
+  section .container .logo-img {
+    padding-top: 30px; }
+  section .container .button {
+    display: flex;
+    flex-wrap: nowrap;
+    margin-right: 17px;
+    align-items: center; }
+    section .container .button button {
+      width: 90%;
+      font-size: 18px;
+      margin-left: 10px;
+      border: 1px solid #88a4b8;
+      border-radius: 15px;
+      filter: drop-shadow(0px 0px 20px #f2f2f2);
+      background: #fff;
+      padding-left: 10px; }
+      section .container .button button:hover {
+        background: #303f9f;
+        color: #f4f4f4; }
+      section .container .button button img {
+        margin-right: 10px; }
+  section .container .line {
+    align-items: center;
+    display: flex;
+    margin-top: 20px;
+    margin-left: 15px;
+    margin-right: 15px;
+    text-align: center; }
+    section .container .line h1 {
+      font-size: 10px;
+      font-weight: normal;
+      color: #8d8d8d;
+      display: flex;
+      flex-direction: row-reverse; }
+  section .container .link {
+    padding: 10px 10px;
+    font-size: 14px; }
+    section .container .link .link-1 {
+      padding-left: 100px;
+      font-weight: bold;
+      text-align: right;
+      color: #1f1f1f; }
+    section .container .link .link-2 {
+      padding-left: 20px;
+      font-weight: normal;
+      text-align: left;
+      color: #cecece; }
+    section .container .link hr {
+      border: none;
+      border-radius: 10px;
+      display: block;
+      height: 4px;
+      overflow: visible;
+      position: relative;
+      width: 100%;
+      background: #f2f2f2;
+      margin-top: 10px; }
+      section .container .link hr:before {
+        background: #f57c00;
+        border: none;
+        border-radius: 10px;
+        position: absolute;
+        content: "";
+        display: block;
+        height: 4px;
+        position: absolute;
+        top: 0;
+        width: 50%;
+        z-index: 1; }
+  section .container .form-group {
+    padding: 6px;
+    text-align: right; }
+    section .container .form-group label {
+      display: block;
+      font-size: 14px;
+      padding: 8px; }
+    section .container .form-group .input,
+    section .container .form-group .drop-down {
+      width: 95%;
+      height: 45px;
+      border-radius: 10px;
+      background: #f2f2f2;
+      color: #707070;
+      border: 1px solid #b3b2b2;
+      margin-right: 5px;
+      padding-right: 15px;
+      box-sizing: border-box; }
+      section .container .form-group .input:focus, section .container .form-group .input:hover,
+      section .container .form-group .drop-down:focus,
+      section .container .form-group .drop-down:hover {
+        outline: none;
+        border: 1px solid #f57c00; }
+
+section .btn {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  border: 1px #d7d9ee solid;
+  width: 420px;
+  border-radius: 10px;
+  color: #303f9f;
+  font-size: 15px;
+  font-weight: 800;
+  background: #d7d9ee;
+  margin-right: 10px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  padding: 10px 10px 0 0; }
+  section .btn:hover {
+    background-color: #303f9f;
+    color: #f4f4f4; }
+
+section p {
+  font-size: 10px;
+  font-weight: normal; }
+
+section strong {
+  color: #f57c00; }
+
+section .footer {
+  width: 100%;
+  margin-bottom: 50px; }
+  section .footer .footer-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%; }
+    section .footer .footer-container .p-one {
+      margin-right: 100px; }
+    section .footer .footer-container .p-two {
+      margin-left: 100px; }
+
+.line h1 {
+  display: flex;
+  flex-direction: row;
+  font-size: 10px;
+  color: #c2c2c2;
+  width: 100%; }
+
+h1:before,
+h1:after {
+  content: "";
+  flex: 1 1;
+  border-bottom: 1px solid #c2c2c2;
+  margin: auto; }
+
+h1:before {
+  margin-right: 10px; }
+
+h1:after {
+  margin-left: 10px; }
+
+/* mobile */

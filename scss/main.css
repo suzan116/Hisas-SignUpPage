@@ -1,0 +1,121 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'DroidArabicKufiRegular';
+}
+
+ul {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  width: 177px;
+  height: 40px;
+  border: 1px solid #fef2e5;
+  border-radius: 15px;
+  background: #fef2e5;
+  text-align: center;
+}
+
+button a {
+  color: #f57c00;
+}
+
+button a:hover {
+  color: #1f1f1f;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 30px 10%;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.menu-1 li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.header li:hover {
+  color: #9b5c0a;
+}
+
+.menu-2 li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.menu-2 li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.header .menu {
+  font-weight: bold;
+  font-size: 16px;
+  text-align: right;
+  color: #1f1f1f;
+}
+
+.header li {
+  padding: 0 30px;
+}
+
+.header li img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.header .items-center {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.header .item-end {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+/*# sourceMappingURL=main.css.map */

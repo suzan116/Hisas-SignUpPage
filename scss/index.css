@@ -1,0 +1,209 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: 'DroidArabicKufiRegular';
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  height: 40px;
+}
+
+header .container {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 80px;
+  width: 450px;
+  border: solid 0.5px #ececec;
+  border-radius: 10px;
+  text-align: center;
+  -webkit-box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.16);
+          box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.16);
+}
+
+header .container h1 {
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+
+header .container .logo-img {
+  padding-top: 30px;
+}
+
+header .container .button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  margin-right: 17px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header .container .button button {
+  width: 90%;
+  font-size: 18px;
+  margin-left: 10px;
+  border: 1px solid #88a4b8;
+  border-radius: 15px;
+  -webkit-filter: drop-shadow(0px 6px 22px #f2f2f2);
+          filter: drop-shadow(0px 6px 22px #f2f2f2);
+  background: #fff;
+  padding-left: 10px;
+}
+
+header .container .button button img {
+  margin-right: 10px;
+}
+
+header .container .line {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 20px 16px;
+  text-align: center;
+}
+
+header .container .line h1 {
+  font-size: 10px;
+  font-weight: normal;
+  color: #8d8d8d;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+}
+
+header .container .link {
+  padding: 15px;
+  font-size: 14px;
+}
+
+header .container .link .link-1 {
+  padding-left: 100px;
+  font-weight: bold;
+  text-align: right;
+  color: #1f1f1f;
+}
+
+header .container .link .link-2 {
+  padding-left: 20px;
+  font-weight: normal;
+  text-align: left;
+  color: #cecece;
+}
+
+header .container .link hr {
+  border: none;
+  border-radius: 10px;
+  display: block;
+  height: 4px;
+  overflow: visible;
+  position: relative;
+  width: 100%;
+  background: #f2f2f2;
+  margin-top: 10px;
+}
+
+header .container .link hr:before {
+  background: #f57c00;
+  border: none;
+  border-radius: 10px;
+  position: absolute;
+  content: '';
+  display: block;
+  height: 4px;
+  position: absolute;
+  top: 0;
+  width: 50%;
+  z-index: 1;
+}
+
+header .container .form-group {
+  padding: 6px;
+  text-align: right;
+}
+
+header .container .form-group label {
+  display: block;
+  font-size: 14px;
+  padding: 8px;
+}
+
+header .container .form-group input,
+header .container .form-group .drop-down {
+  width: 95%;
+  height: 45px;
+  border-radius: 10px;
+  background: #f2f2f2;
+  color: #707070;
+  border: 1px solid #b3b2b2;
+  margin-right: 5px;
+  padding-right: 10px;
+}
+
+header .btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: 1px #d7d9ee solid;
+  width: 420px;
+  border-radius: 15px;
+  color: #303f9f;
+  font-weight: bold;
+  background: #d7d9ee;
+  margin-right: 10px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.line h1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  font-size: 10px;
+  color: #c2c2c2;
+  width: 100%;
+}
+
+h1:before, h1:after {
+  content: "";
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1;
+          flex: 1 1;
+  border-bottom: 1px solid #c2c2c2;
+  margin: auto;
+}
+
+h1:before {
+  margin-right: 10px;
+}
+
+h1:after {
+  margin-left: 10px;
+}
+/*# sourceMappingURL=index.css.map */

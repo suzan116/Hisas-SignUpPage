@@ -1,0 +1,83 @@
+* {
+  box-sizing: border-box; }
+
+body,
+html {
+  padding: 0;
+  margin: 0;
+  font-family: "DroidArabicKufiRegular"; }
+
+a {
+  text-decoration: none; }
+
+button {
+  font-size: 15px;
+  width: 177px;
+  height: 40px;
+  border: 1px solid #fef2e5;
+  border-radius: 15px;
+  background: #fef2e5;
+  text-align: center;
+  margin-left: 30px; }
+
+button a {
+  color: #f57c00; }
+
+button a:hover {
+  color: #1f1f1f; }
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 10%;
+  flex-wrap: wrap; }
+  header ul {
+    list-style: none;
+    display: flex; }
+  header .logo {
+    display: flex;
+    justify-content: flex-start; }
+  header .middle-menu {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto; }
+    header .middle-menu a {
+      font-weight: bold;
+      color: #1f1f1f; }
+  header .menu-left {
+    display: flex;
+    justify-content: start;
+    text-align: center;
+    align-items: center;
+    margin-top: 10px; }
+    header .menu-left a {
+      font-weight: bold;
+      color: #1f1f1f; }
+
+.menu-1 li {
+  display: inline-block;
+  padding: 0px 20px; }
+
+.header li:hover {
+  color: #9b5c0a; }
+
+.menu-2 li {
+  display: inline-block;
+  padding: 0px 20px; }
+
+.menu-2 li {
+  display: inline-block;
+  padding: 0px 20px; }
+
+.header .menu {
+  font-weight: bold;
+  font-size: 16px;
+  text-align: right;
+  color: #1f1f1f; }
+
+.header li {
+  padding: 0 30px; }
