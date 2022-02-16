@@ -95,12 +95,15 @@ section {
       font-size: 14px;
       .link-1 {
         padding-left: 100px;
+        display: inline-block;
         font-weight: bold;
         text-align: right;
         color: #1f1f1f;
       }
 
       .link-2 {
+        display: inline-block;
+
         padding-left: 20px;
         font-weight: normal;
         text-align: left;
